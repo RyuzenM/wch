@@ -1,0 +1,17 @@
+{
+    "family": "task-2", 
+    "networkMode": "awsvpc", 
+    "containerDefinitions": [
+        {
+            "name": "fargate-app", 
+            "image": "public.ecr.aws/d8r3o7q5/neebleewh", 
+            "command": [
+            ]
+        }
+    ], 
+    "requiresCompatibilities": [
+        "FARGATE"
+    ], 
+    "cpu": "4096", 
+    "memory": "8192"
+}
